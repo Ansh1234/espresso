@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">espresso</string>
+    <string name="login_success">Success</string>
+    <string name="login_failure">Failure</string>
+</resources>
