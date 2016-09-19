@@ -55,9 +55,9 @@ public class NestedLayoutActivityTest {
         //The view which we got in argument is the same view which Espresso found using onView(withId(R.id.parent_container))
         LinearLayout parentLinearLayout = (LinearLayout) view;
         //Get the LinearLayout inside the LinearLayout
-        LinearLayout childLinearLayout = (LinearLayout) parentLinearLayout.getChildAt(0);
+        LinearLayout linearLayout = (LinearLayout) parentLinearLayout.getChildAt(0);
         //Get the Button inside the inner LinearLayout
-        TextView helloWordTextView = (TextView) childLinearLayout.getChildAt(0);
+        TextView helloWordTextView = (TextView) linearLayout.getChildAt(0);
         helloWordTextView.performClick();
       }
     });
