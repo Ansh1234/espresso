@@ -34,6 +34,4 @@
                 android:onClick="loginButtonClick"
                 android:text="LOGIN"/>
     </LinearLayout>
-
-
 </RelativeLayout>
