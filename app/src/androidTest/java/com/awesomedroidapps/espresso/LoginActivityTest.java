@@ -42,7 +42,7 @@ public class LoginActivityTest {
     onView(withId(R.id.user_name)).perform(typeText("Chandler"));
 
     //Find a view with has hint Password and type "sarcasm" as password.
-    onView(withHint("Password")).perform(typeText("sarcasm"));
+    onView(withHint("Password")).perform(typeText("sar"));
 
     //Close the keyword, otherwise LoginButton won't be visible to Espresso and it will throw an
     // exception.
